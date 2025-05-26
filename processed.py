@@ -19,7 +19,6 @@ def extract_metadata(post):
         'line count': 2,
         'language': 'English',
         'tags': ['Internship', 'Career', 'Milestone']
-
         
     }
           
