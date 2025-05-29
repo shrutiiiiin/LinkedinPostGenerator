@@ -1,61 +1,79 @@
 [
     {
-  "type": "career_milestone",
-  "author": "Ananya Sharma",
-  "headline": "I’m thrilled to share that I’ve joined Microsoft as a Software Engineer!",
-  "body": "After months of preparation, interviews, and learning, I’m excited to begin this new chapter at Microsoft. Thank you to everyone who supported me through this journey — mentors, peers, and friends. To those who are still on their path: keep going. It’s worth it!",
-  "hashtags": ["#NewBeginnings", "#Microsoft", "#Gratitude", "#SoftwareEngineering"],
-  "mentions": ["@Microsoft"]
-},
-
-{
-  "type": "internship_announcement",
-  "author": "Ravi Kumar",
-  "headline": "Excited to start my summer internship at Razorpay!",
-  "body": "I'm grateful for the opportunity to join the Product team at Razorpay as a Product Intern. Looking forward to learning, building, and growing over the next 8 weeks. If you're interested in the fintech space, I’d love to connect!",
-  "hashtags": ["#Internship", "#Fintech", "#Razorpay", "#ProductManagement"],
-  "mentions": ["@Razorpay"]
-},
-{
-  "type": "thought_leadership",
-  "author": "Priya Desai",
-  "headline": "Soft skills are the hardest to learn.",
-  "body": "As a tech leader, I’ve come to realize that technical knowledge is just the starting point. Communication, empathy, and adaptability often define who excels in the long run. Let’s stop calling them ‘soft’ skills — they’re essential.",
-  "hashtags": ["#Leadership", "#TechCulture", "#CareerGrowth"],
-  "mentions": []
-},
-{
-  "type": "startup_announcement",
-  "author": "Nikhil Verma",
-  "headline": "We launched our AI-powered resume review tool — ResumAI!",
-  "body": "After months of late nights, feedback loops, and iterations, we’re live. ResumAI helps job seekers tailor their resumes using AI. Would love for you to try it out and share your thoughts. Big shoutout to my co-founders and team!",
-  "hashtags": ["#Startup", "#ProductLaunch", "#AI", "#JobSearch"],
-  "mentions": ["@ResumAI"]
-},
-{
-  "type": "failure_reflection",
-  "author": "Mehul Patel",
-  "headline": "We failed to close our first funding round.",
-  "body": "It stings. We pitched to 14 investors, heard 14 different versions of 'No'. But every conversation gave us clarity. We’re now reworking our deck, rebuilding our product vision, and pushing forward. Failure isn’t the end — it’s feedback.",
-  "hashtags": ["#Startuplife", "#Resilience", "#FailureToSuccess"],
-  "mentions": []
-},
-{
-  "type": "gratitude_post",
-  "author": "Ayesha Iqbal",
-  "headline": "Shoutout to the amazing community at Google Developer Group Delhi!",
-  "body": "Attending GDG Delhi this weekend reminded me how powerful peer learning is. The sessions, people, and energy were incredible. If you're into tech, design, or just learning, I highly recommend these events.",
-  "hashtags": ["#Community", "#GoogleDevelopers", "#GDGDelhi", "#Networking"],
-  "mentions": ["@GoogleDeveloperGroup"]
-},
-{
-  "type": "hiring_announcement",
-  "author": "Swati Reddy",
-  "headline": "We’re hiring at Zenspace! 🚀",
-  "body": "Our design team is looking for a passionate UI/UX designer to join us full-time. If you’re excited about building tools for the remote future, reach out or apply at zenspace.io/careers.",
-  "hashtags": ["#Hiring", "#DesignJobs", "#RemoteWork"],
-  "mentions": ["@Zenspace"]
-}
-
-
+        "text": "I\u2019m thrilled to share that I\u2019ve joined Microsoft as a Software Engineer! After months of preparation, interviews, and learning, I\u2019m excited to begin this new chapter. Thank you to everyone who supported me \u2014 mentors, peers, and friends. To those still on their path: keep going. It\u2019s worth it! #NewBeginnings #Microsoft #Gratitude #SoftwareEngineering @Microsoft",
+        "author": "Ananya Sharma",
+        "timestamp": "2024-05-01T09:00:00",
+        "line_count": 4,
+        "language": "English",
+        "tags": [
+            "New Beginnings",
+            "Microsoft"
+        ]
+    },
+    {
+        "text": "Excited to start my summer internship at Razorpay! I'm grateful for the opportunity to join the Product team at Razorpay as a Product Intern. Looking forward to learning, building, and growing over the next 8 weeks. If you're interested in the fintech space, I\u2019d love to connect! #Internship #Fintech #Razorpay #ProductManagement @Razorpay",
+        "author": "Ravi Kumar",
+        "timestamp": "2024-05-15T11:30:00",
+        "line_count": 4,
+        "language": "English",
+        "tags": [
+            "Internships",
+            "Fintech"
+        ]
+    },
+    {
+        "text": "Soft skills are the hardest to learn. As a tech leader, I\u2019ve come to realize that technical knowledge is just the starting point. Communication, empathy, and adaptability often define who excels in the long run. Let\u2019s stop calling them \u2018soft\u2019 skills \u2014 they\u2019re essential. #Leadership #TechCulture #CareerGrowth",
+        "author": "Priya Desai",
+        "timestamp": "2024-04-22T18:20:00",
+        "line_count": 3,
+        "language": "English",
+        "tags": [
+            "Leadership",
+            "Tech Culture"
+        ]
+    },
+    {
+        "text": "We launched our AI-powered resume review tool \u2014 ResumAI! After months of late nights, feedback loops, and iterations, we\u2019re live. ResumAI helps job seekers tailor their resumes using AI. Would love for you to try it out and share your thoughts. Big shoutout to my co-founders and team! #Startup #ProductLaunch #AI #JobSearch @ResumAI",
+        "author": "Nikhil Verma",
+        "timestamp": "2024-03-30T12:00:00",
+        "line_count": 1,
+        "language": "English",
+        "tags": [
+            "Startups",
+            "Product Launch"
+        ]
+    },
+    {
+        "text": "We failed to close our first funding round. It stings. We pitched to 14 investors, heard 14 different versions of 'No'. But every conversation gave us clarity. We\u2019re now reworking our deck, rebuilding our product vision, and pushing forward. Failure isn\u2019t the end \u2014 it\u2019s feedback. #Startuplife #Resilience #FailureToSuccess",
+        "author": "Mehul Patel",
+        "timestamp": "2024-03-10T14:45:00",
+        "line_count": 5,
+        "language": "English",
+        "tags": [
+            "Resilience",
+            "Startup Life"
+        ]
+    },
+    {
+        "text": "Shoutout to the amazing community at Google Developer Group Delhi! Attending GDG Delhi this weekend reminded me how powerful peer learning is. The sessions, people, and energy were incredible. If you're into tech, design, or just learning, I highly recommend these events. #Community #GoogleDevelopers #GDGDelhi #Networking @GoogleDeveloperGroup",
+        "author": "Ayesha Iqbal",
+        "timestamp": "2024-05-05T10:10:00",
+        "line_count": 1,
+        "language": "English",
+        "tags": [
+            "Community",
+            "Google Developers"
+        ]
+    },
+    {
+        "text": "We\u2019re hiring at Zenspace! \ud83d\ude80 Our design team is looking for a passionate UI/UX designer to join us full-time. If you\u2019re excited about building tools for the remote future, reach out or apply at zenspace.io/careers. #Hiring #DesignJobs #RemoteWork @Zenspace",
+        "author": "Swati Reddy",
+        "timestamp": "2024-05-18T09:00:00",
+        "line_count": 1,
+        "language": "English",
+        "tags": [
+            "Hiring",
+            "Design Jobs"
+        ]
+    }
 ]
