@@ -1,7 +1,6 @@
 import pandas as pd
 import json
 
-
 class FewShotPosts:
     def __init__(self, file_path="data/pre_processsed.json"):
         self.df = None
@@ -19,9 +18,9 @@ class FewShotPosts:
 
     def get_filtered_posts(self, length, language, tag):
         df_filtered = self.df[
-            (self.df['tags'].apply(lambda tags: tag in tags)) &  # Tags contain 'Influencer'
-            (self.df['language'] == language) &  # Language is 'English'
-            (self.df['length'] == length)  # Line count is less than 5
+            (self.df['tags'].apply(lambda tags: tag in tags)) & # checking whether the tag is in the tags , if yes it returns true
+            (self.df['language'] == language) &  # Language can be 'English', 'Hindi' , 'Hinglish'
+            (self.df['length'] == length)  # Line count can be short medium or long
         ]
         return df_filtered.to_dict(orient='records')
 
@@ -40,5 +39,5 @@ class FewShotPosts:
 if __name__ == "__main__":
     fs = FewShotPosts()
     # print(fs.get_tags())
-    posts = fs.get_filtered_posts("Medium","Hinglish","Job Search")
+    posts = fs.get_filtered_posts("Short","English","Fintech")
     print(posts)
