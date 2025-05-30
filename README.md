@@ -22,15 +22,15 @@ An AI-powered tool that generates LinkedIn posts based on your preferences for l
 
 ### Installation
 
-1. **Clone the repository**
-   git clone https://github.com/shrutiiiiin/LinkedinPostGenerator.git
+1. **Clone the repository**<br>
+   git clone https://github.com/shrutiiiiin/LinkedinPostGenerator.git<br>
    cd linkedin-post-generator
-2. **Install dependencies**
+2. **Install dependencies**<br>
    pip install -r requirements.txt
-3. **Setup your data**
+3. **Setup your data**<br>
     python process_posts.py
-4. **Configure your LLM**
-    Update llm_helper.py with your AI model configuration
-    Add your API keys if using external services
-5. **Run the Application**
+4. **Configure your LLM**<br>
+   Update llm_helper.py with your AI model configuration.<br>
+   Add your API keys if using external services
+5. **Run the Application**<br>
     streamlit run main.py
