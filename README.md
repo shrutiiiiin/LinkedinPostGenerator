@@ -3,7 +3,7 @@
 An AI-powered tool that generates LinkedIn posts based on your preferences for length, language, and topic tags. This project uses machine learning to analyze existing posts and generate new, relevant content.
 
 ![LinkedIn Post Generator](images/linkedin_post.png) 
-![Try it out yourself!](<images/linkedin post_internship.png>)
+![Try it out yourself](images/linkedin_post_internship.png)
 
 ## ✨ Features
 
