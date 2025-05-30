@@ -1,5 +1,6 @@
 import streamlit as st
 from fewshot import FewShotPosts
+from post_generator import generate_post
 
 length_options = ["Short", "Medium", "Long"]
 language_options = ["English", "Hinglish" , "Hindi"]
@@ -17,8 +18,9 @@ def main():
     with col3:
        selected_language = st.selectbox("Language", options=language_options)
         
-    if st.button('Generate Post'):
-        st.write(f"Genrated Posts for {selected_tag} ,{selected_length} ,{selected_language}")
+    if st.button("Generate"):
+        post = generate_post(selected_length, selected_language, selected_tag)
+        st.write(post)
 
 if __name__ == "__main__":
     main()
